@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "D:/projekt/ebbe34/gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "ebbe34.step",

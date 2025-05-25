@@ -1,4 +1,4 @@
-26390060441692036
+26405767111112309
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66682,12 +66682,26 @@ Yellow 5381 Series LED
 2
 2
 Library
-SMD_Diode_Tiny_dual_layer
-Resitance 3 pas
-R
+Battery+
+
+
 0
-4
-2
+1
+1
+Library
+Battery-
+
+
+0
+1
+1
+Library
+Untitled
+
+
+0
+1
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -94168,8 +94182,8 @@ Hotswap_Choc_V1V2
 Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap
 Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout
 0
-2
-2
+0
+0
 ScottoKeebs_Hotswap
 Hotswap_Choc_V1V2_1.00u
 Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u
@@ -106007,3 +106021,52 @@ Varistor VF
 0
 2
 2
+lib
+SMD_Diode_Tiny
+Resitance 3 pas
+R
+0
+6
+2
+lib
+SMD_Diode_Tiny_dual_layer
+Resitance 3 pas
+R
+0
+4
+2
+lib
+SW_Hotswap_Kailh_Choc_V1_tweaked
+Kailh keyswitch Hotswap Socket
+Kailh Keyboard Choc V1 keyswitch Keyswitch Switch Hotswap Socket Cutout
+0
+2
+2
+lib
+SW_RESET
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
+lib
+nice_nano
+
+
+0
+24
+24
+lib
+nice_view
+
+
+0
+5
+5
+lib
+smt-slider-switch
+
+
+0
+7
+4
