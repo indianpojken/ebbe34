@@ -489,7 +489,7 @@
       "plot": "../gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ebbe34.step",
+      "step": "../screen.plate.step",
       "svg": "",
       "vrml": ""
     },
