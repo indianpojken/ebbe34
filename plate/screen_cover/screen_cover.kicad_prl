@@ -31,7 +31,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
-      "ratsnest",
+      "footprint_anchors",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_aaaaaaaa_aaaaaa8f",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -57,7 +57,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ebbe34.kicad_prl",
+    "filename": "screen_cover.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -89,11 +89,11 @@
       162,
       147,
       91,
-      36,
+      67,
       91,
       91,
       91,
-      56,
+      71,
       91,
       91
     ],

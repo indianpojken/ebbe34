@@ -1,0 +1,1573 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "../gerber/")
+		)
+	)
+	(net 0 "")
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "17b73659-e42f-4e5b-931d-ba3f4bedb285")
+		(at 101.899788 64.800188)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "41e0994b-a80b-4410-9267-55e868c74a8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a7eb051-f9ef-4d9c-a552-5b0a2e6b5d20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cf0022f-fdc1-4e50-877e-3ef442361b21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "078bd556-1ac2-46ed-b1cc-6b6aeec424dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "79e1b8d6-21a6-4ad6-aed2-a723b2362da2")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "13ba2917-3b8e-4610-a7a9-d4e3e3dcfaca")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "1a2f3d11-2e91-4390-8b9a-fc68800422ee")
+		(at 209.716657 122.035704)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "55e09af6-7585-4581-86c7-c21aec2c8089")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6f5c084-a8fb-48cb-ab7c-1e9e37c52354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c44d0dd8-c737-4be7-b11a-1dea407cd2c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e010c15d-02e5-4f03-ae43-07f9afa61b72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "eb54e462-90b2-4274-93c4-17e61fa5c354")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cc62685e-b6de-46ac-a55d-f740e9d10a57")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "1c7c1c8d-87c0-4da1-b8ae-ceb8deaa766d")
+		(at 49.966381 60.942171)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "50af97e6-3437-4151-a9f2-396fbccf6426")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab91df8-6a9f-4e2a-b0fd-b6aedaa25609")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88f42bb7-63c9-475b-96b7-41750f319eb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c303a6cb-fddd-42cc-a239-b9bd06e93024")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "ce1e7dfd-00b0-4974-9c97-ca7429339dbe")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9c12b602-72ed-4120-b3d7-17c853d130bc")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "24b1d617-0645-4837-ac81-1b8aee96bf67")
+		(at 86.556321 122.035713)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "69f9a601-2b0e-41cd-96f5-9aeb4f0203c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d86cf5c5-14f2-490d-9ce8-c0d04c619d76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92b60df0-10b9-4bbb-a81d-ab4d65a0f86b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53d28e94-bf70-4b15-860a-7c6cd31bf6e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "4589ac5a-cb3a-4321-9965-ec837e330ab7")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "af07d237-089f-4744-82c0-9a8d9d4bf5c1")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "30d4c144-1be6-4123-b61d-6185aa8f498f")
+		(at 247.431319 109.47826)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "96fbd18c-c641-4713-af7a-6ef731316e37")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -0.485839 0.338682 0)
+			(layer "F.Fab")
+			(uuid "b98daa3e-116f-4e0f-9e71-e22bffb23df3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eaaac46-aefe-4d44-a08c-50c2b4d376ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab55667f-37cd-40e1-bfe4-99d3fc9be4fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "babae772-bce5-41a8-b27b-0bc25f3d60ff")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "4606cb3b-a5c9-4534-b3ce-708b131f300b")
+		(at 48.841657 109.478272)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "321a565b-8b9a-43b0-9487-f325b5d4cca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a20e0bc0-d544-44f5-98f3-e9b7ecd5630b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "377e9c4a-4565-4ac3-ac53-55df61967368")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a88649e5-446c-42c7-8e36-0e88a5ddbc50")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "c3d117e2-8b5f-474f-900b-8f0d310c8dfe")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "35042e82-700e-4f2b-b319-f9331f0e5ec2")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "6327eff4-81b0-41d0-8c74-980987b19814")
+		(at 184.799852 154.122939)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f35b01c5-bd2c-43e1-b161-a7df41fa6fa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcdc2284-3f28-4955-b46f-7372422b4c58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd37826-67db-437b-9f2b-583080f84ef1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62175a49-bd74-4f65-8621-acaaf912a110")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "adef741a-2751-4e0d-b853-b3e92f04f348")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d134d8fa-b3c3-432f-b42c-46baa94d6d4d")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "7558fc06-06e2-4195-a132-f57918cb89dc")
+		(at 86.556321 122.035713 20)
+		(property "Reference" ""
+			(at 0 0 20)
+			(layer "F.SilkS")
+			(uuid "d6647d69-03d3-4c57-9134-57c928fcec46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 20)
+			(layer "F.Fab")
+			(uuid "ee5ec0eb-5474-408e-8ece-1b3a207b549c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 20)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c11be602-c457-4068-96ae-5ee3b32864f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 20)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8813805-46e6-48e3-9381-c110acf5823e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4d6c1446-4f3b-4bd1-ac0b-63b67f5916ab")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "8550214a-aa75-4904-bee6-875c6c6fb199")
+		(at 148.404157 91.754454)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "844fcb45-277b-46a6-8b7e-9c1a6baa3544")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8962a52-6985-4f2d-8c48-c77cbd4b4fe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebd8f718-da93-461b-91a8-7c9d45b46b02")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c3762d1-a8a9-4b7d-9a80-60659a83af1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "40881a4f-6aa4-4e4d-95b0-3262b7c2b814")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6a27bff9-4e2e-4b0b-be7e-4eb5ddef0f57")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "875ab6fa-a5d0-4ae8-b77d-ab85958518bd")
+		(at 101.899788 64.800188)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "2fcdf2aa-fa8f-4036-8ac0-7c379c73ec89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "31325cd6-d44e-4f14-bab5-280bec7f12e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd7d3289-1393-4726-8ba9-a761f6bce97c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc85e95c-ed82-4bf7-b894-bb5554d5e68d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7ab6c15c-4c67-4ad1-b8fc-b4c2e8d7938e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "914d5bf9-6b23-42ce-be84-31340895cf37")
+		(at 111.47315 154.122945)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "67d7e6cd-1386-4472-8d1d-f1e4a94aabfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc2642e6-58a9-4285-8090-8741a12b97e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf413d2c-4ff6-4ab7-98ac-d855a913f891")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e70fc20a-1a07-4a0d-b679-3f5e1d9dba14")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "41abb110-8f35-4211-97cc-747af3fe4c15")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "368f9611-2b1d-472a-ae42-25c4f121a28d")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "a5623c0b-27fd-43a9-b990-475c1fce5dcd")
+		(at 194.372974 64.799988)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "47b65a22-b3d9-4bff-8e9a-096a84a74869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8643ed44-d6a1-4341-a3a6-1d41495343ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c9599c9-b60c-4bf7-b6fc-8cd76078f02c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8574723a-51e1-4e92-ae13-b47f23f2d51f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "61822e73-2dc5-4672-ab0f-ece8f16fd00a")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d31f5b80-47bf-4d30-a593-23092d491f12")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ab170006-eff3-4607-94a0-42dc5bb169c5")
+		(at 209.716657 122.035704 20)
+		(property "Reference" ""
+			(at 0 0 20)
+			(layer "F.SilkS")
+			(uuid "3fa11259-3006-48e4-8980-e0def2d90397")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 20)
+			(layer "F.Fab")
+			(uuid "43cba0e6-1552-4c85-b629-8e883a5a9cd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 20)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fc64200-7c89-455a-bbfc-0735fba560d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 20)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c76f538a-4990-4fd5-b9d0-24464d186dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4dfb1c73-72b0-4151-a3c0-1411b0bd68c4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "b3a4160b-167e-4d5f-99d8-aa9ab0aa7730")
+		(at 194.372974 64.799988)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "96b2119b-0b50-4b3e-a4bb-e8b77b402ce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ea74d4d7-b527-491a-8254-5046bfb4f06c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8398e874-8e64-4c51-967e-bffd89354f28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2b14bf9-4a77-4522-b678-7b3753cc122c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ecb7f30a-957e-4316-86b5-6e3317e69fd5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "ScottoKeebs_Scotto:Standoff_M2x6mm"
+		(layer "F.Cu")
+		(uuid "bbbb1b8b-715f-40bb-82eb-fefe3315b446")
+		(at 247.431319 109.47826)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 -3.199999 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7bf8dd8e-b1ee-4532-8361-f1c1397695c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Standoff_M2x6mm"
+			(at 0 3.199999 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f5bde69-1215-4dcd-ad48-9fcf87877306")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea41f47b-c58e-45bf-b878-c73844caa87a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9947b82f-07c3-4573-b863-c6f58a264115")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "004ab1e8-678b-4478-a12a-f5b31bd0ed1e")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bf295de0-da9e-4624-b715-542280c1505c")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+			(offset
+				(xyz 0 0 -7.6)
+			)
+			(scale
+				(xyz 1 1 6)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ffe168f7-686c-49fb-83ba-7e0aa0a6ca1c")
+		(at 48.841657 109.478272)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "34b7016b-2376-4143-86b2-3a3190f5991e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -0.485839 0.338682 0)
+			(layer "F.Fab")
+			(uuid "8aec8546-b7e9-4510-9b2e-4496257513e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8904bd74-6b50-41ed-9a11-7861aa3c3904")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02d7ca3c-5725-44a0-ba0e-977d3292f3fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "420f1073-eb5a-492c-90f9-66d39eace54a")
+		)
+		(embedded_fonts no)
+	)
+	(gr_arc
+		(start 94.335266 146.625196)
+		(mid 93.737071 146.111233)
+		(end 93.43541 145.382537)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0b979452-8960-4420-b0a4-9c47fd1b3adf")
+	)
+	(gr_arc
+		(start 127.849475 167.284435)
+		(mid 126.382796 167.968913)
+		(end 124.778947 167.751368)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0c98cfd5-bfb3-4c13-bc4d-c1afecc7007e")
+	)
+	(gr_arc
+		(start 171.493607 167.751382)
+		(mid 186.281588 156.563073)
+		(end 201.937288 146.62518)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2148a437-d313-4939-83a5-96c05ecbd416")
+	)
+	(gr_arc
+		(start 272.733406 107.276319)
+		(mid 272.25777 109.478444)
+		(end 270.493594 110.87961)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "34bba1fa-aa54-4db5-baa4-65c85b2b27f3")
+	)
+	(gr_arc
+		(start 94.335266 146.625196)
+		(mid 109.990966 156.563089)
+		(end 124.778947 167.751398)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d97a3d9-e933-4b29-ac73-542a10b27d4c")
+	)
+	(gr_arc
+		(start 156.011266 82.501863)
+		(mid 148.13641 84.8484)
+		(end 140.261496 82.502057)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "490ee6b8-58ec-431e-b030-b4ac90a6c25b")
+	)
+	(gr_arc
+		(start 202.837144 145.382521)
+		(mid 202.535483 146.111216)
+		(end 201.937288 146.62518)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "72b145a3-872f-4e8e-ab60-0b8abba4074c")
+	)
+	(gr_arc
+		(start 202.837143 145.382521)
+		(mid 221.36917 120.741699)
+		(end 251.931109 116.670582)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "76065fcb-7001-42be-a63c-d3ce69e804c4")
+	)
+	(gr_arc
+		(start 254.118005 116.670585)
+		(mid 253.024557 116.692454)
+		(end 251.931109 116.670586)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77f8be01-919e-431e-bce2-55e3eb70587c")
+	)
+	(gr_arc
+		(start 156.011266 82.501862)
+		(mid 201.621137 57.787393)
+		(end 253.496603 57.823451)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86735804-6b60-423c-9998-6bc92c212514")
+	)
+	(gr_arc
+		(start 171.493607 167.751352)
+		(mid 169.889758 167.968897)
+		(end 168.423079 167.284419)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8c08d00b-04a8-47d7-bafa-51293da586f9")
+	)
+	(gr_line
+		(start 255.576556 60.189864)
+		(end 272.733617 107.276136)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "999871c0-3f75-4ae5-892d-2e560d37780c")
+	)
+	(gr_arc
+		(start 40.696206 60.190064)
+		(mid 41.503251 58.802121)
+		(end 42.776162 57.823651)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a4174963-a86f-4dc7-8d8f-c08b1d74f6fe")
+	)
+	(gr_arc
+		(start 253.4966 57.823451)
+		(mid 254.769511 58.801921)
+		(end 255.576556 60.189864)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "acf71894-2ab3-402c-a46f-a4c3b0f1dae9")
+	)
+	(gr_arc
+		(start 42.776159 57.823651)
+		(mid 94.651625 57.787593)
+		(end 140.261496 82.502062)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b6856eb8-9044-4a98-a77b-f45a81bf0ae3")
+	)
+	(gr_line
+		(start 160.24361 159.223371)
+		(end 136.028944 159.223387)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1876900-e49a-4df1-99ed-1e8e4b692641")
+	)
+	(gr_line
+		(start 127.849475 167.284435)
+		(end 136.028944 159.223387)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1e98fde-204b-495c-a613-7c29f28079eb")
+	)
+	(gr_line
+		(start 270.493594 110.87961)
+		(end 254.118005 116.670585)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c898d5d5-cd64-4347-a19d-88a1ce6fd134")
+	)
+	(gr_arc
+		(start 44.341445 116.670598)
+		(mid 43.247997 116.692466)
+		(end 42.154549 116.670597)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cccbcf88-963d-415d-b9dc-4e75ffaf52e7")
+	)
+	(gr_line
+		(start 25.77896 110.879622)
+		(end 42.154549 116.670597)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd1631c1-d1a8-40b6-af89-d5cf34f84b56")
+	)
+	(gr_arc
+		(start 44.341445 116.670598)
+		(mid 74.903384 120.741715)
+		(end 93.435411 145.382537)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cfa72692-cb6e-43a7-8f7a-501c832fbfdf")
+	)
+	(gr_line
+		(start 40.696206 60.190064)
+		(end 23.539085 107.276501)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e86c65f3-bff7-4fef-b746-491420f8e93d")
+	)
+	(gr_line
+		(start 168.423079 167.284419)
+		(end 160.24361 159.223371)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9e8df68-1607-4330-b17c-59482a0e8e37")
+	)
+	(gr_arc
+		(start 25.778957 110.879622)
+		(mid 24.01475 109.478465)
+		(end 23.539145 107.276331)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec8db780-9d1d-4cc3-86bc-2ef4d205d924")
+	)
+	(embedded_fonts no)
+)

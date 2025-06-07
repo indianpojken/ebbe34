@@ -3104,7 +3104,7 @@
 			)
 		)
 	)
-	(global_label "NVCS"
+	(global_label "CS"
 		(shape input)
 		(at 27.94 80.01 270)
 		(fields_autoplaced yes)
@@ -3116,7 +3116,7 @@
 		)
 		(uuid "2badb9c5-18c4-416c-9718-4150de286f61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 87.8938 90)
+			(at 27.94 85.4747 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3412,7 @@
 			)
 		)
 	)
-	(global_label "NVCS"
+	(global_label "CS"
 		(shape input)
 		(at 55.88 63.5 180)
 		(fields_autoplaced yes)
@@ -3424,7 +3424,7 @@
 		)
 		(uuid "765c80e9-06d0-4613-9cf6-42cee6637fd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5683 63.4206 0)
+			(at 50.4153 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

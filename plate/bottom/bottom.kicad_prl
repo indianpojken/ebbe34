@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 25,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -31,6 +31,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
+      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -48,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_aaaaaaaa_aaaaaa8f",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -57,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ebbe34.kicad_prl",
+    "filename": "bottom.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -89,11 +90,11 @@
       162,
       147,
       91,
-      36,
+      67,
       91,
       91,
       91,
-      56,
+      71,
       91,
       91
     ],
