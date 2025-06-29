@@ -12,6 +12,7 @@
 - **1×** 2-pin THT Reset Switch
 - **34×** Kailh Choc V1 or V2 Hotswap Sockets
 - **34×** 1N4148W SMD Diodes
+- **1x** MSK12C02 Power Switch
 
 All required parts are available from [42keebs.eu](https://42keebs.eu).
 
